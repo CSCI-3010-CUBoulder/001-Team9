@@ -1,0 +1,4 @@
+This is really just a test. I wanted to see how git works, and this is 
+teaching me.
+
+In case you wanted to know more about me, my favorite candy is Reese's and my favorite type of food is Mediterranean.
