@@ -1,7 +1,9 @@
+#include <string>
+#include <vector>
 /* String functions section */
 
 // Splits a single string on separator into a vector of strings
-std::vector<std::string> Split(std::string whole, std::string separator;
+std::vector<std::string> Split(std::string whole, std::string separator);
 
 // takes two strings and returns a new string that is the result of removing all occurrences of s2 from s1.
 std::string RemoveAllSubstrings(std::string s1, std::string s2);
@@ -32,7 +34,7 @@ std::vector<bool> OddMask(std::vector<int>);
 // Sums all numbers in a vector and returns the resulting value
 int Sum(std::vector<int> nums){
     int count = 0;
-    for (int i = 0; i < nums.size; i++)
+    for (int i = 0; i < nums.size(); i++)
     {
         count += nums[i];
     }
@@ -104,7 +106,6 @@ double Sign(double num) {
     return num < 0 ? -1 : 1;    
 }
 
-
 // adds n to each element of the vector
 std::vector<int> AddN(std::vector<int>, int n);
 
@@ -125,7 +126,7 @@ std::vector<int> SubtractN(std::vector<int> vec, int n){
 };
 
 // subtracts n to each element of the vector
-std::vector<double> SubtractN(std::vector<double>, double n){
+std::vector<double> SubtractN(std::vector<double> vec, double n){
     for(int i=0; i<vec.size(); i++)
     {
         vec[i] -= n;
