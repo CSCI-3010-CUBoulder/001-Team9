@@ -34,7 +34,7 @@ std::vector<bool> OddMask(std::vector<int>);
 // Sums all numbers in a vector and returns the resulting value
 int Sum(std::vector<int> nums){
     int count = 0;
-    for (int i = 0; i < nums.size; i++)
+    for (int i = 0; i < nums.size(); i++)
     {
         count += nums[i];
     }
@@ -105,7 +105,6 @@ std::vector<double> Multiples(double n, double m);
 double Sign(double num) {
     return num < 0 ? -1 : 1;    
 }
-
 
 // adds n to each element of the vector
 std::vector<int> AddN(std::vector<int>, int n);
